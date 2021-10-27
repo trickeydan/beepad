@@ -1,4 +1,4 @@
-# BeePad
+# 🐝 BeePad 🐝
 
 A MacroPad full of bees.
 
@@ -6,7 +6,7 @@ This is a library for building bee-powered RGB macro keys using the [Adafruit RP
 
 It supports 20 pages of 12 macros, so 240 individual macros.
 
-It is written using [CircuitPython 7](https://circuitpython.org/).
+It is written using [CircuitPython](https://circuitpython.org/).
 
 ## Usage
 
@@ -14,6 +14,7 @@ You will need to write a `code.py` to define your macros.
 
 ```python
 from beepad import BeePad
+
 from beepad.keymap import Keymap, TypeAction
 
 pad = BeePad([
@@ -38,7 +39,7 @@ pad = BeePad([
 ])
 
 while True:
-    pad.buzz()
+    pad.b()
 ```
 
 ## Updating
